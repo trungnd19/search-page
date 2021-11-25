@@ -1,0 +1,454 @@
+html body {
+	height: 100%!important;
+	width: 100%;
+}
+
+* {
+	box-sizing: border-box;
+}
+
+body {
+    font-family: Meiryo,メイリオ,MS PGothic,ＭＳ\ Ｐゴシック,Hiragino Kaku Gothic Pro,ヒラギノ角ゴ Pro W3,sans-serif;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #292b2c;
+    background-color: #fff;
+}
+
+#change-color {
+	background-color: rgb(241,141,0) !important;
+	height: 53px;
+}
+
+.navbar-toggler {
+	margin-bottom: 10px;
+}
+
+
+
+.rounded-circle{
+	margin-top: 70px;
+    border: 1px solid #f18d00;
+    width: 76px;
+    height: 76px;
+}
+
+img {
+    vertical-align: middle;
+}
+
+#img-and-name {
+	display: flex;
+	align-items: center;
+}
+
+#name-text {
+	margin-top: 80px;
+	margin-left: 15px;
+	color: #777;
+}
+
+#name-text > h3 {
+	font-size: 1.5rem;
+}
+
+#side-menu {
+    color: #777;
+    padding: .2rem .5em;
+    cursor: pointer!important;
+    height: 100%!important;
+
+}
+
+.text-decoration-none {
+	color: #777;
+	font-size: 1.2rem;
+}
+
+.text-decoration-none:hover {
+	color: #777;
+}
+
+
+.input-group {
+	width: 90%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#tab-dropdown {
+	margin-top: 4.5rem;
+	font-size: 18px;
+}
+
+.nav2 .nav-link {
+	background-color: #eceeef;
+    padding: .5em 1em;
+    margin: 0 0.2em;
+    height: 4rem;
+}
+
+.nav2 .nav-item {
+	text-align: center;
+	width: 10rem;
+}
+
+#prjoy-button {
+    color: #fff;
+    background-color: #7cbd45;
+    border-color: #7cbd45;
+    width: 230px;
+}
+
+#button-wrapper {
+	margin-left: auto;
+	margin-right: auto;
+}
+
+
+select {
+  font-family: 'FontAwesome', 'sans-serif';
+}
+
+.dropdown-menu label {
+  display: block;
+}
+
+.dropdown-check-list{
+display: inline-block;
+width: 100%;
+}
+.dropdown-check-list:focus{
+outline:0;
+}
+
+.dropdown-check-list .anchor {
+width: 100%;
+position: relative;
+cursor: pointer;
+display: inline-block;
+padding-top:5px;
+padding-left:5px;
+padding-bottom:5px;
+border:1px #ccc solid;
+}
+.dropdown-check-list .anchor:after {
+position: absolute;
+content: "";
+border-left: 2px solid black;
+border-top: 2px solid black;
+padding: 5px;
+right: 10px;
+top: 20%;
+-moz-transform: rotate(-135deg);
+-ms-transform: rotate(-135deg);
+-o-transform: rotate(-135deg);
+-webkit-transform: rotate(-135deg);
+transform: rotate(-135deg);
+}
+
+.dropdown-check-list ul.items {
+padding: 2px;
+display: none;
+
+border: 1px solid #ccc;
+border-top: none;
+}
+.dropdown-check-list ul.items li {
+list-style: none;
+}
+
+.dropdown-check-list.visible .items {
+display: block;
+}
+
+.btnprimary {
+	color: #fff!important;
+    background-color: #004580!important;
+    border-color: #004580!important;
+}
+
+
+#img-table {
+	width: 55px;
+    height: 55px;
+    margin-top: 0;
+    border: 1px solid #f18d00;
+}
+
+table {
+	width: 300px;
+}
+
+
+.btn-menkai {
+    color: #fff!important;
+    background-color: #7cbd45!important;
+    border-color: #7cbd45!important;
+}
+
+th > a {
+	text-decoration: none;
+	color: #d6d6d6;
+	font-size: 1.5rem;
+}
+
+.btn-end {
+	width: 100px;
+	height: 40px;
+	font-size: 3rem;
+	font-weight: bold;
+}
+
+
+#form-group {
+	margin-top: -30px;
+}
+
+.form-check-inline:focus {
+    color: #fff;
+    background-color: #f18d00;
+}
+
+
+#nav-item1, #nav-item2 {
+	
+	font-size: 20px;
+}
+
+.g-button {
+	margin-bottom: 
+}
+
+.btnwarning {
+    color: #fff!important;
+    background-color: #f18d00!important;
+    border-color: #f18d00!important;
+}
+
+#table-responsive-fix {
+	 display:table;
+}
+
+@media only screen and (min-width: 200px) and (max-width: 830px) {
+	
+.dropdown-check-list {
+	margin-top: 5px; 
+	margin-bottom: 5px;
+}
+
+#city-select {
+	margin-bottom: -10px;
+}
+
+.search-bar-1 {
+	margin-top: 5px; 
+	margin-bottom: 5px;
+}
+
+.navbar-nav {
+	color: black;
+}
+
+#table-header-text {
+	font-size: 20px;
+}
+
+#hamburger-menu {
+	visibility: hidden;
+}
+
+.text-light {
+	background-color: rgb(241,141,0)!important;
+}
+
+
+}
+
+
+.nav-tabs .nav-link {
+    background-color: #eceeef;
+    margin: 0 0.2em;
+    height: 3rem;
+}
+
+.tooltip-inner {
+background-color: rgb(233,225,197)!important;
+color: rgb(71,71,71)!important;
+}
+
+.tooltip.bs-tooltip-right .arrow:before {
+    border-right-color: rgb(233,225,197) !important;
+}
+
+.tooltip.bs-tooltip-left .arrow:before {
+    border-left-color: rgb(233,225,197) !important;
+}
+
+.tooltip.bs-tooltip-bottom .arrow:before {
+    border-bottom-color: rgb(233,225,197) !important;
+}
+
+.tooltip.bs-tooltip-top .arrow:before {
+    border-top-color: rgb(233,225,197) !important;
+}
+
+.plus-button {
+	text-decoration: none;
+	color: black;
+}
+
+#hamburger-menu {
+	margin-left: -95px;
+	margin-top: 5px;
+	width: 500px !important;
+}
+	
+
+#setting-tab, #other-tab {
+	background-color: rgb(238,238,238);
+	height: 100%;
+	width: 100%;
+}
+
+.border-bottom:hover {
+	background-color: rgb(252,248,227);
+}
+
+.dropdown-menu > .border-bottom:hover {
+	background-color: rgb(252,248,227);
+}
+
+div > .last-item:hover {
+	background-color: rgb(252,248,227);
+}
+
+.demo3 {
+    width: 350px;
+}
+
+
+.demo3 ul li {
+    list-style: none;  
+}
+
+.demo3 li:hover {
+	color: white;
+}
+
+#myForm {
+  width: 500px;
+  height: 600px;
+  background-color: white;
+}
+
+/* Chat containers */
+.chat-container {
+  border: 2px solid #dedede;
+  background-color: #f1f1f1!important;
+  border-radius: 5px;
+  padding: 10px;
+  margin: 20px 40px;
+  width: 390px;
+  height: 320px;
+}
+
+
+/* Button used to open the chat form - fixed at the bottom of the page */
+.open-button {
+  background-color: rgb(241,141,0);
+  color: white;
+  padding-right: 50px;
+  padding-bottom: 5px;
+  padding-top: 5px;
+  border-top-left-radius:11%; 
+  border-top-right-radius: 11%;
+  cursor: pointer;
+  border: none;
+  position: fixed;
+  bottom: 0;
+  left: 28px;
+  width: auto;
+  font-size: 15px;
+}
+
+/* The popup chat - hidden by default */
+.chat-popup {
+  display: none;
+  position: fixed;
+  bottom: 0;
+  left: 15px;
+  border: 1px solid rgb(241,141,0);
+  z-index: 9;
+}
+
+/* Add styles to the form container */
+.form-container {
+  background-color: white;
+  font-size: 15px;
+}
+
+
+
+/* Set a style for the submit/send button */
+.form-container .btn {
+   color: #000000;
+   background-color: rgba(173,231,242,1);
+  font-weight: bold;
+  width: 80%;
+  height: 30px;
+  border-style: solid;
+  cursor: pointer;
+  margin-bottom:10px;
+  opacity: 0.8;
+  text-align: left;
+}
+
+
+.form-container .btn:hover {
+background-color:rgb(160,197,232);
+}
+
+/* Add some hover effects to buttons */
+.form-container .btn:hover, .open-button:hover {
+  opacity: 1;
+}
+
+.frame-icon {
+	position: absolute;
+    left: 10px;
+    width: 40px;
+    max-height: 30px;
+    max-width: 50px;
+}
+
+#chat-nav {
+	background-color: rgb(241,141,0);
+}
+
+
+/* Clear floats */
+.chat-container::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+
+.company-chat-name {
+	margin-left: 60px;
+}
+
+/* Style time text */
+.time-right {
+  margin-left: 380px;
+  color: #aaa;
+}
+
+/* Style time text */
+.time-left {
+  float: left;
+  color: #999;
+}
+
